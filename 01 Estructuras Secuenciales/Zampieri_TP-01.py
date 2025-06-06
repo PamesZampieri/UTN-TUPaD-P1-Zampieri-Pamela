@@ -101,15 +101,3 @@ numero3 = float(input("Escriba otro número: "))
 promedio = (numero1 + numero2 + numero3) / 3
 
 print(f"El promedio de los tres números ingresados es: {promedio:.2f}")
-
-a = True
-b = False
-c = not a and b
-d = not (a and b)
-e = c or d and a or b 
-
-print(a)
-print(b)
-print(c)
-print(d)
-print(e)
